@@ -1,0 +1,55 @@
+
+.login1 {
+	max-width: 20%;
+}
+
+.loginspc{
+	margin-bottom: 5px;
+	text-decoration: none;
+	background-color: lightskyblue;	
+}
+
+#submtbn{	
+	max-width: 90px;
+}
+
+.buffer{
+
+	height: 10em;
+}
+
+.btn:hover{
+    margin: 2px;
+}
+
+.subbt{
+	border-radius: 50px;
+}
+
+#welcome{
+	font-size: 5em;
+	font-family: fantasy;
+	font-weight: bold;
+}
+ 
+body {
+
+	background: url(./images/car1.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+
+
+
+
+
+		
+			
+
+			
+
+	
