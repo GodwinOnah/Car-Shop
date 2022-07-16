@@ -1,0 +1,48 @@
+.imagelink{
+
+
+	
+}
+#para1{
+
+	margin-left: 50%;
+	font-weight: bold;
+	color: palevioletred;
+	
+}
+
+
+
+#imageLinkButton{
+background-color: blue;
+color: white;
+
+
+}
+
+#imagelink{
+
+	margin-left: 40%;
+	margin-bottom: 10%;
+	padding: 1%;
+	width: 30%;
+	height: 40%;	
+	background: linear-gradient(315deg, transparent 75%, #d45d55 0)-10px 0,
+    linear-gradient(45deg, transparent 75%, #d45d55 0)-10px 0,
+    linear-gradient(135deg, #a7332b 50%, transparent 0) 0 0,
+    linear-gradient(45deg, #6a201b 50%, #561a16 0) 0 0 #561a16;
+    background-size: 20px 20px;
+}
+
+#rankstatement{
+
+	margin-left: 50%;
+	margin-bottom: 5%;
+	font-weight: bold;
+	color: green;
+}
+
+#rankstatement2{
+padding-left: 10%;
+
+}
