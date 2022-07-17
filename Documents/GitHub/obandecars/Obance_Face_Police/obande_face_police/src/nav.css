@@ -4,6 +4,24 @@
 }
 
 .log{
-margin: 0;
+
+font-weight: bold;
+color: white;
+text-decoration: none;
+padding-right: 150px;
+
 
 }
+
+#navList li{
+	
+	display: inline;
+}
+
+.fixed-top{
+
+	padding-left: 40px;
+	padding-right: 40px;
+}
+
+

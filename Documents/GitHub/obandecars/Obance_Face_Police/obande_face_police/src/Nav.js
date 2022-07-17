@@ -1,4 +1,5 @@
 import React,{Component} from 'react';
+import './nav.css'
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "bootstrap/dist/js/bootstrap.js";
@@ -9,32 +10,36 @@ const Nav=()=>{return(
 
 <nav class="navbar bg-dark fixed-top">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#">Offcanvas navbar</a>
 
-    	  <li class="nav-item dropdown navItems">
-                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Services
-                  </a>
-                  <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDropdown">
-                    <li><a class="dropdown-item" href="#">Car sales</a></li>
-                    <li><a class="dropdown-item" href="#">Car Rentals</a></li>
-                    <li><a class="dropdown-item" href="#">Car Maintenance</a></li>
-                    <li><a class="dropdown-item" href="#">Others</a></li>
-                  </ul>
-                </li> 
 
-		<span class="log" id="loginId">
-     <a href="#">Login</a></span>
+  <ul id="navList">
 
-      <span class="log" id="loginId">
-     <a href="#">Logout</a></span>
+    <li class="navList">
+    <a class="log" href="#">About us</a>
+    </li>
 
-     <span class="log" id="loginId">
-     <a href="#">Register</a></span>
+    <li class="navList">
+     <a  class="log" href="#">Login</a>
+     </li>
 
+      <li class="navList">
+     <a class="log" href="#">Logout</a>
+       </li>
+
+       <li class="navList">
+     <a class="log" href="#">Register</a>
+      </li>
+      
+    <li class="navList">
     <button class="navbar-toggler bg-light " type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
-      <span class="navbar-toggler-icon ">Menu</span>
+      Menu
     </button>
+
+     </li>
+
+        </ul>
+
+        
     <div class="offcanvas offcanvas-end " tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
       <div class="offcanvas-header">
         <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
@@ -53,8 +58,8 @@ const Nav=()=>{return(
               Dropdown
             </a>
             <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
-              <li><a class="dropdown-item" href="#">Action</a></li>
-              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><a class="dropdown-item" href="#">Consultant</a></li>
+              <li><a class="dropdown-item" href="#">Account</a></li>
               <li>
                 <hr class="dropdown-divider"/>
               </li>

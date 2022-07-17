@@ -12,7 +12,7 @@ const ImageLink=()=>{
 
 	<div>
 
-	<span id="para1"> Image goes here</span>
+	<span id="para1"> Image url goes here</span>
 
 	<div id="imagelink">
 	<input id="imagelinkInput" type="text"/>
