@@ -1,0 +1,143 @@
+
+                      /*Nav CSS*/
+.push{
+	
+	
+	color: yellowgreen;
+	font-weight: bold;
+	margin-right: 10px;
+
+}
+
+#cartLabel{
+color: red;
+margin-left: 70px;
+
+}
+
+.details{
+
+	margin-top: 8px;
+	margin-left: 10px;
+}
+
+.add{
+
+	background-color: red;
+	margin-left: 50px;
+	margin-bottom: 5px;
+}
+
+
+
+.verticalLine{
+
+	border-left: 10px solid white;
+	height: 100px;
+	
+}
+
+#catAndSignup{
+
+	float: right;
+	padding-left: auto;
+}
+
+.cartQuantity{
+
+	font-size: 30px;
+	color: yellowgreen;
+	padding: 8px;
+	border: 3px solid black;
+	border-radius: 100px;
+
+	
+	
+}
+
+#catNumber{
+color: yellow;
+
+}
+
+#open-modal: hover{
+color: blue;
+
+}
+span.cartName{
+
+	margin-left: 100px;
+
+
+	text-align: center;
+
+    color: red;
+}
+
+
+
+
+
+
+.searcher {
+
+width: 20%;
+margin-left: auto;
+margin-right: 10%;
+margin-top: 100px;
+margin-bottom: 5px;
+}
+
+
+
+
+
+
+ .navItems{
+	font-weight: bold;
+	font-size: 120%;
+	color: white;
+	padding-right: 8%;
+	padding-left: 5%;
+
+
+			
+}
+
+.dropdown-item{
+
+	font-size: 15px;
+}
+
+
+
+.sticky {
+background-color: black;
+position: fixed;
+top: 0;
+width: 100%;
+margin: 0;
+
+
+}
+
+.log{
+
+	font-size: 14px;
+	color: purple;
+}
+
+
+
+
+
+
+
+
+
+		
+			
+
+			
+
+	

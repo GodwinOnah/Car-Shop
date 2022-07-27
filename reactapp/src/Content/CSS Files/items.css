@@ -1,0 +1,215 @@
+                       /*Loging Page CSS*/
+
+
+
+                          /*Items Page CSS*/
+
+#welcome{
+	font-size: 5em;
+	font-family: fantasy;
+	font-weight: bold;
+
+}
+
+.marquee{
+	color: indianred;
+	font-weight: bold;
+}
+
+#carModelList{
+
+	font-size: 15px;
+
+	color: purple;
+}
+
+#carModelButton{
+	background: none;
+   border: none;
+   color: blue;
+}
+
+.carModelList{
+
+	border: 2px solid pink ;
+	border-radius: 10px;
+	height: 250px;
+	overflow: scroll;
+	background-color: black;
+	
+}
+
+#advertMessage {
+
+	background-color: black;
+	color: gold;
+	overflow: scroll;
+	height: 170px;
+	border: 2px solid pink ;
+	border-radius: 10px;
+
+}
+
+.carview{
+
+	width: 500px;
+	height: 500px;
+}
+
+
+
+
+ 
+body {
+
+	background: url(../../images/toyota8.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  margin: auto 0;
+}
+
+
+									/*for let item-container*/
+
+
+.col-2{
+	background-color: lightcyan;
+	width: 20%;
+	margin-left:3%;
+	margin-right: 1%;
+	height: 800px;
+	color:black;
+	padding-top: 30px;
+	padding-left: 20px;
+	border: 10px solid white;
+	border: 2px solid red ;
+	border-radius: 10px;
+	
+}
+
+
+
+                           /*For items container*/
+
+ .item-container {
+
+ 	width: 70%;
+ 	margin: 0 1.5%;
+
+	overflow: scroll;
+
+	height: 800px;
+	border: 2px solid red ;
+	border-radius: 10px;
+
+	background-color:mintcream;
+
+	position: relative;
+
+	display:grid;
+
+	grid-gap: 20px;
+
+	grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
+
+	grid-template-rows: repeat(auto-fill,minmax(300px,1fr));
+
+	
+}
+
+ul.aside-links{
+
+text-decoration: none;
+/*list-style: none;*/
+text-align: left;
+width: 100%;
+
+
+}
+
+li.aside-links-list{
+
+	color: black;
+	font-size: 90%;
+
+}
+
+.position-fixed{
+
+   	margin-bottom: 10px;
+   }
+
+.card{
+
+	width: 300px; 
+	height: 300px;
+	margin: 20px;
+}
+
+.card-img-top{
+	width: 100%; 
+	height:95%;
+	margin-left: 9%;
+	margin-top: 5%;
+	margin-bottom: 7%;
+	
+}
+
+.card-body{
+
+overflow-x: scroll;
+max-height:35%;
+border-color: lightskyblue;
+border-width: 1rem;
+
+
+}
+
+.infoButton{
+
+	background-color: mintcream;
+	color: blue;
+
+margin: 0.5rem 1rem;
+
+}
+
+.pricing{
+	color: black;
+	font-weight: bold;
+}
+
+
+
+                      /*Nav CSS*/
+.push{
+	float: right;
+	padding-left: auto;
+	color: yellowgreen;
+	font-weight: bold;
+
+}
+
+.cart {margin: 5px;}
+
+.nav-link{
+	color: white;
+}
+
+
+
+
+
+
+
+
+		
+			
+
+			
+
+	

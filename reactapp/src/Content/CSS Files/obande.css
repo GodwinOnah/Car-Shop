@@ -1,0 +1,121 @@
+                       /*Loging Page CSS*/
+
+
+
+
+                          /*Items Page CSS*/
+
+#welcome{
+	font-size: 5em;
+	font-family: fantasy;
+	font-weight: bold;
+}
+
+.navbar{
+
+	background-color: #330000;
+}
+ 
+
+
+
+                      /*Nav CSS*/
+.push{
+	float: right;
+	padding-left: auto;
+	color: gold;
+	font-weight: bold;
+
+}
+
+.cart {margin: 5px;}
+
+.nav-link{
+	color: white;
+}
+
+li{
+	font-weight: bold;
+	padding: 0 10%;
+	font-size: 150%;
+	
+}
+
+.menu{
+
+	margin: 0 10%;
+}
+
+
+@media only screen and (max-width: 300px){
+
+ .navItems{
+	font-weight: bold;
+	padding: 0 5px;
+	font-size: 100%;
+	color: white;
+
+			}
+}
+
+.dropdown-item{
+
+	font-size: 15px;
+}
+
+
+
+.sticky{
+
+position: sticky;
+top: 0;
+width: 100%;
+
+
+}
+
+
+
+.sub{
+position: relative;
+
+}
+
+
+
+
+.fa-solid {
+	color: white;
+}
+
+.navLogLink{
+
+	display: d-flex;
+}
+
+
+
+
+	
+
+/*loging/logout*/
+
+ a:link {
+
+	text-decoration: none;
+	
+	padding: 5px;
+}
+
+.log {
+	color: white;
+}
+
+
+
+		
+			
+
+			
+
+	

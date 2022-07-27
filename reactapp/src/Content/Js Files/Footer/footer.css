@@ -1,0 +1,21 @@
+.footme {
+background-color: gray;
+position: relative;
+bottom: 0;
+width: 100%;
+height: 300px;
+margin-top: 200px;
+
+}
+
+#address{
+
+	font-size: 10px;
+	color: white;
+}
+
+.solo1{
+font-size: 13px;
+color: white;
+
+}

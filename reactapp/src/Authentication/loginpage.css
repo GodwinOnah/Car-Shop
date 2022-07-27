@@ -1,0 +1,65 @@
+.loginpage{
+
+	padding-left: 36%;
+	padding-right: 25%;
+	padding-top: 200px;
+	padding-bottom: 200px;
+}
+
+.signuppage{
+
+	padding-left: 36%;
+	padding-right: 25%;
+	padding-top: 120px;
+	padding-bottom: 200px;
+
+}
+
+
+
+
+.loginBackground{
+
+	background-color: skyblue;
+
+	height: 10%;
+	width: 55%;
+
+	padding: 30px;
+
+
+}
+
+.w-100{
+
+	margin: 5%;
+	height: 10%;
+	width: 55%;
+
+
+}
+
+.db{
+
+	margin: 10px;
+	text-decoration: none;
+}
+
+.logoutBackground{
+
+background-color: skyblue;
+
+	height: 20%;
+	width: 65%;
+
+	padding: 30px;
+
+
+}
+
+.submitbtn{
+
+	margin-left: 20px;
+	margin-right: 100px;
+
+}
