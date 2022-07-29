@@ -1,10 +1,10 @@
 import React,{Component} from 'react';
-import Card from './cards';
+import Card2 from './card2';
 import {AddToCart,CarInfo,Quantity} from './quantity'
 
 
 
-const CarCards=({carPropertiesCards,onClickToViewChange,onChangeCatQuantity,})=>{
+const CarCards2=({carPropertiesCards,onClickToViewChange,onChangeCatQuantity,})=>{
 	
 
 
@@ -22,7 +22,7 @@ const CarCards=({carPropertiesCards,onClickToViewChange,onChangeCatQuantity,})=>
 
 								      	 return (
 
-								      			 	<Card 
+								      			 	<Card2 
 								      			 
 								      			 	key={i} 
 								      			 	image={carPropertiesCards[i].image} 
@@ -30,7 +30,6 @@ const CarCards=({carPropertiesCards,onClickToViewChange,onChangeCatQuantity,})=>
 								      			 	id={carPropertiesCards[i].id}
 								      			 	details={carPropertiesCards[i].details} 
 								      			 	price={carPropertiesCards[i].price}
-								      			 	rent={carPropertiesCards[i].rent}
 								      			 	onClickToViewChange={onClickToViewChange}
 								      			 	onChangeCatQuantity={onChangeCatQuantity}
 								      			 
@@ -53,4 +52,4 @@ const CarCards=({carPropertiesCards,onClickToViewChange,onChangeCatQuantity,})=>
 }
 
 
-export default CarCards;
+export default CarCards2;

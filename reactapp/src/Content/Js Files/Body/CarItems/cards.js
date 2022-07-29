@@ -1,9 +1,14 @@
 import React from 'react';
 import {AddToCart,CarInfo} from './quantity';
 import Tilt from 'react-tilt';
-import '../../../CSS Files/nav.css'
+import '../../../CSS Files/nav.css';
+import {Link } from "react-router-dom";
+import CarViewCard from './CarViewCard';
+import {Rent} from './rent'
 
-const Card=({image,carname,id,addToCart,details,price,onChangeCatQuantity})=>{
+const Card=({image,carname,id,addToCart,details,price,rent,onClickToViewChange,onChangeCatQuantity})=>{
+
+   
 
        return(
 
@@ -13,21 +18,34 @@ const Card=({image,carname,id,addToCart,details,price,onChangeCatQuantity})=>{
 
                   
 
-                    <Tilt className="Tilt br2 shadow-2" options={{ max : 25 }} style={{ height: 300, width: 250 }} >
+                    
+                    <Tilt  className="Tilt br2 shadow-2" options={{ max : 25 }} style={{ height: 180, width: 250 }} >
                         <div className="Tilt-inner" >   </div>
-                        <img onClick="" class="card-img-top" src={image}  alt="..."/>
+                        <Link to='/CarViewCard'  ><img onClick={()=>onClickToViewChange(id)}
+                        class="card-img-top" src={image}  alt="..."/> </Link>
                         </Tilt>
 
+                       
+                            <span id="carnaming">{carname}</span>
                   
 
                     
-                            <CarInfo carname={carname} id={id} details={details}/>
+                            <CarInfo details={details}/>
 
           
-                                 <div>
+                              
+                              
+                                 <div class="row">
 
+                                <div class="col-6 buy">
                                 <AddToCart carname={carname} price={price} id={id} onChangeCatQuantity={onChangeCatQuantity}/>
+                                </div> 
+
+                                <div class="col-6 rent">
+                                <Rent carname={carname} rent={rent} id={id} onChangeCatQuantity={onChangeCatQuantity}/>
+                                 </div> 
                                 
+                                     
 
                                 </div>
 

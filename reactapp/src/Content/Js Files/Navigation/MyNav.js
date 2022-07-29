@@ -3,6 +3,7 @@ import '../../CSS Files/nav.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.js';
 import {Log,LogPageChoice} from './log';
+
 import {Link } from "react-router-dom";
 import {AddToCart,CarInfo,Prompter}  from '../Body/CarItems/quantity'
 import {nav, ul, li,Button, Form, Input,i, span, img,
@@ -21,7 +22,7 @@ const MyNav =({onLogoutClick,state,onIsLoginCheck})=> {
              
              <div class="container-fluid">
 
-             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+             <ul class="navbar-nav me-auto mb-2 mb-lg-0 ulNavItems">
 
 
                 <li class="nav-item navItems">
@@ -44,21 +45,21 @@ const MyNav =({onLogoutClick,state,onIsLoginCheck})=> {
 
                 <li class="nav-item navItems">
               
-                      <a class="nav-link" href="#">Management</a>
+                      <Link to="/management" class="log" >Management</Link>
                 </li>
 
                
                 <li class="nav-item navItems">
-                     <a class="nav-link" href="#">Filter</a>
+                     <Link to="/about" class="log" >About</Link>
                 </li>
 
                 <li class="nav-item dropdown navItems">
-                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      <a class="nav-link dropdown-toggle log" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         Services
                       </a>
                       <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDropdown">
-                        <li><a class="dropdown-item" href="#">Car Rentals</a></li>
-                        <li><a class="dropdown-item" href="#">Car Maintenance</a></li>
+                        <li><a class="dropdown-item" href="#"><Link to="/Rentals" class="log">Car Rentals</Link></a></li>
+                        <li><a class="dropdown-item" ><Link to="/maintenance" class="log">Car Maintenance</Link></a></li>
                         <li><a class="dropdown-item" href="#">Others</a></li>
                       </ul>
 
@@ -74,6 +75,7 @@ const MyNav =({onLogoutClick,state,onIsLoginCheck})=> {
 
                      <Link to="/loginpage"   class="log" id="open-modal">Login</Link>
                  </li>
+                 
                            
                  <li class="nav-item navItems">  
 

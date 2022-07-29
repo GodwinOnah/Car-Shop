@@ -71,9 +71,11 @@ const carName=({carname})=>{
 
                     <>
 
-                    <button class="add" id={id} onClick={()=>Prompter()}>Add to cart</button>
+
+
+                    <button class="add" id={id} onClick={()=>Prompter()}>Buy</button>
                     <div class="push">Price: <span class="pricing">£{price}</span> </div>
-                                         
+                                        
                     </>
                     
 );}
@@ -82,7 +84,7 @@ const carName=({carname})=>{
 
 
 
-const CarInfo=({carname,id,details})=>{
+const CarInfo=({details})=>{
 
 
 

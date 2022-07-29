@@ -1,7 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import Main from './Content/Js Files/Body/CarItems/Main';
-import MyNav from './Content/Js Files/Navigation/MyNav';
 import LoginPage from './Authentication/loginpage';
 import App from './Authentication/router'
 

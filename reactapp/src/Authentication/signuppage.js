@@ -149,7 +149,8 @@ fetch('http://localhost:3001/signup',{
       
     </fieldset>
     <div class="">
-      <input onClick={this.onSubmitChange} class="  submitbtn" type="submit" value="Sign up" />
+      <input onClick={this.onSubmitChange} class=" btn btn-success  submitbtn logbtns" type="submit" value="Sign up" />
+      <Link to="/obande_luxury_cars"><input class="btn btn-success logbtns" value="Home" type="submit"/></Link>
     </div>
     <div class="lh-copy mt3">
       <span>Already a user? </span><Link to="/loginpage">Login</Link>

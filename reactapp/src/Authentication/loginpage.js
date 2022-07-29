@@ -94,7 +94,7 @@ fetch('http://localhost:3001/login',{
                                   	
 
                                   <main class="pa4 black-80  ">
-                                        <form class="measure center loginBackground" method="post" >
+                                        <form class="measure center loginBackground" method="post" class="loginContainer">
 
                                               <fieldset id="sign_up" class="ba b--transparent ph0 mh0">
 
@@ -114,7 +114,8 @@ fetch('http://localhost:3001/login',{
                                               </fieldset>
 
                                           <div>
-                                           <input onClick={this.onSubmitChange} class="btn btn-success" value="login" type="submit"/>
+                                           <input onClick={this.onSubmitChange} class="btn btn-success logbtns" value="login" type="submit"/>
+                                           <Link to="/obande_luxury_cars"><input class="btn btn-success logbtns" value="Home" type="submit"/></Link>
                                           </div>
 
                                           <div class="lh-copy mt3">

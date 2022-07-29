@@ -32,6 +32,7 @@ class SearchApp extends React.Component {
     this.state = {
 
         carP:carProperties,
+        carQ:carProperties,
         searchingField:'',
          catQuantity:0
     };
@@ -63,32 +64,40 @@ class SearchApp extends React.Component {
   render(){
 
 
+
+
             const clickCarModelItems = this.state.carP.filter(x=>{ 
 
 
             return x.name.toLowerCase().includes(this.state.searchingField.toLowerCase());
+           
 
              
 
            });
 
-                    if(clickCarModelItems.length==0){
-
-                      alert("Car not in our shop currently");
-
-                        
-                    }
-
+                    
 
             const SearchCarsItems = this.state.carP.filter(x=>{ 
 
 
-            return x.name.toLowerCase().includes(this.state.searchingField.toLowerCase());
+            return x.name.toLowerCase().includes(this.state.searchingField.toLowerCase())
+           || x.price.toString().includes(this.state.searchingField.toLowerCase());
 
              
 
            });
-            
+
+            // if(clickCarModelItems.length==0){
+
+            //           alert("Car not in our shop currently");
+
+            //          this.setState({searchingField:''})    
+   
+                        
+            //         }
+
+             
              
             
               return (
@@ -97,7 +106,9 @@ class SearchApp extends React.Component {
 
                                        
                                                
-                                        <div> <marquee direction="left " class="marquee">Order any car of your choice by simply clicking to add to cart</marquee></div>
+                                        <div> <marquee direction="left " class="marquee">
+                                        Order any car of your choice by simply clicking to add to cart
+                                        </marquee></div>
 
 
                                             
@@ -110,15 +121,11 @@ class SearchApp extends React.Component {
 
 
                                               <div class="row">
+
                                               <div class="col-2 left-container">
 
                                               <div>
-
-
-
-
-
-                                    
+                                   
 
                                               <h5>Car Model</h5>
                                                <hr/>
@@ -130,19 +137,11 @@ class SearchApp extends React.Component {
 
                                               <hr/>
                                                 <AdvertMessage/>
-                                            
-
+                                          
    
                                               </div>
 
                                               </div>
-
-
-
-
-
-
-
 
                                                <div class="col-10 item-container ">
                                                  <CarCards carPropertiesCards={SearchCarsItems} onChangeCatQuantity={this.onChangeCatQuantity}/>

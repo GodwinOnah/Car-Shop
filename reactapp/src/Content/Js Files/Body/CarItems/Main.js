@@ -1,7 +1,7 @@
 import React,{Component} from 'react';
 import ReactDOM from 'react-dom/client';
 import '../../../CSS Files/index.css';
-import MyNav from '../../Navigation/MyNav.js';
+import MyNav from '../../Navigation/MyNav'
 import MyFooter from '../../Footer/footer.js';
 import SearchApp from './SearchApp';
 import LoginPage from '../../../../Authentication/loginpage';
@@ -22,7 +22,7 @@ class Main extends React.Component {
 
         login:'home',
 
-        isLogin:true,
+       
 
         view:'main',
 
@@ -50,13 +50,7 @@ class Main extends React.Component {
                   }
 
 
- onIsLoginCheck =({isLogin})=>{
 
-
-
-                     this.setState({isLogin:!isLogin});
-                    
-                  }
 
 
 
@@ -81,9 +75,9 @@ onChangeCatQuantity =(quantity)=>{
 
               	<div>
 
-                 <MyNav />
+               
 
-                
+                // <  MyNav />
              	 
                 <SearchApp/>
                

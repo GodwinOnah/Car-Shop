@@ -10,9 +10,10 @@ export const carProperties=[
 
 {image:car1,
 name:"Corola",
-id:'1',
+id:"1",
 details:"Speed:300km/h, Gas Powered",
-price:13000
+price:13000,
+rent:10
 },
 
 
@@ -20,7 +21,8 @@ price:13000
 name:"Lamborghini",
 id:"2",
 details:"Speed:450km/h, Gas Powered",
-price:22000
+price:22000,
+rent:8
 },
 
 
@@ -29,7 +31,8 @@ price:22000
 name:"Ferrari",
 id:"3",
 details:"Speed:670km/h, Electric Powered",
-price:23500
+price:23500,
+rent:12
 },
 
 
@@ -39,7 +42,8 @@ price:23500
 name:"Truck",
 id:"4",
 details:"Speed:310km/h, Disiel Powered",
-price:56000
+price:56000,
+rent:30
 },
 
 
@@ -49,7 +53,8 @@ price:56000
 name:"Truck",
 id:"5",
 details:"Speed:360km/h, Gas Powered",
-price:45000
+price:45000,
+rent:30
 },
 
 
@@ -57,7 +62,8 @@ price:45000
 name:"Benz",
 id:"6",
 details:"Speed:500km/h, ElectricPowered",
-price:30000
+price:30000,
+rent:15
 },
 
 
@@ -66,7 +72,8 @@ price:30000
 name:"Cadilac",
 id:"7",
 details:"Speed:450km/h, Gas Powered",
-price:30000
+price:30000,
+rent:10
 },
 
 
@@ -75,7 +82,8 @@ price:30000
 name:"ToyotaA",
 id:"8",
 details:"Speed:450km/h, Gas Powered",
-price:30000
+price:30000,
+rent:5
 },
 
 
@@ -84,49 +92,56 @@ price:30000
 name:"ToyotaB",
 id:"9",
 details:"Speed:450km/h, Gas Powered",
-price:30000
+price:30000,
+rent:10
 },
 
 {image:car10,
 name:"ToyotaC",
 id:"10",
 details:"Speed:670km/h, Electric Powered",
-price:23500
+price:23500,
+rent:10
 },
 
 {image:car11,
 name:"ToyotaD",
 id:"11",
 details:"Speed:160km/h, Electric Powered",
-price:12500
+price:12500,
+rent:10
 },
 
 {image:car12,
 name:"ToyotaE",
 id:"12",
 details:"Speed:230km/h, Electric Powered",
-price:10800
+price:10800,
+rent:10
 },
 
 {image:car13,
 name:"ToyotaF",
 id:"13",
 details:"Speed:400km/h, Electric Powered",
-price:23000
+price:23000,
+rent:10
 },
 
 {image:car14,
 name:"ToyotaG",
 id:"14",
 details:"Speed:600km/h, Electric Powered",
-price:21100
+price:21100,
+rent:10
 },
 
 {image:car15,
 name:"ToyotaH",
 id:"15",
 details:"Speed:350km/h, Electric Powered",
-price:8500
+price:8500,
+rent:10
 },
 
 
@@ -134,42 +149,48 @@ price:8500
 name:"BMW1",
 id:"17",
 details:"Speed:600km/h, Electric Powered",
-price:83100
+price:83100,
+rent:20
 },
 
 {image:bmw2,
 name:"BMW2",
 id:"18",
 details:"Speed:600km/h, Electric Powered",
-price:81100
+price:81100,
+rent:22
 },
 
 {image:bmw3,
 name:"BMW3",
 id:"19",
 details:"Speed:600km/h, Electric Powered",
-price:34000
+price:34000,
+rent:10
 },
 
 {image:bmw4,
 name:"BMW4",
 id:"20",
 details:"Speed:600km/h, Electric Powered",
-price:63000
+price:63000,
+rent:14
 },
 
 {image:bmw5,
 name:"BMW5",
 id:"21",
 details:"Speed:600km/h, Electric Powered",
-price:21000
+price:21000,
+rent:0
 },
 
 {image:bmw6,
 name:"BMW6",
 id:"22",
 details:"Speed:600km/h, Electric Powered",
-price:45100
+price:45100,
+rent:10
 },
 
 
@@ -177,14 +198,16 @@ price:45100
 name:"Bus1",
 id:"23",
 details:"Speed:600km/h, Electric Powered",
-price:200100
+price:200100,
+rent:0
 },
 
 {image:bus1,
 name:"Bus1",
 id:"24",
 details:"Speed:600km/h, Electric Powered",
-price:76100
+price:76100,
+rent:25
 },
 
 
@@ -192,7 +215,8 @@ price:76100
 name:"Bus2",
 id:"25",
 details:"Speed:600km/h, Electric Powered",
-price:15100
+price:15100,
+rent:20
 },
 
 
@@ -201,7 +225,8 @@ price:15100
 name:"Bus3",
 id:"26",
 details:"Speed:600km/h, Electric Powered",
-price:68100
+price:68100,
+rent:0
 },
 
 
@@ -210,7 +235,8 @@ price:68100
 name:"Bus4",
 id:"27",
 details:"Speed:600km/h, Electric Powered",
-price:95100
+price:95100,
+rent:0
 },
 
 
@@ -219,7 +245,8 @@ price:95100
 name:"Bus5",
 id:"28",
 details:"Speed:600km/h, Electric Powered",
-price:100100
+price:100100,
+rent:30
 },
 
 
@@ -228,7 +255,8 @@ price:100100
 name:"Bus6",
 id:"29",
 details:"Speed:600km/h, Electric Powered",
-price:212100
+price:212100,
+rent:50
 },
 
 
@@ -238,7 +266,8 @@ price:212100
 name:"Bus7",
 id:"30",
 details:"Speed:600km/h, Electric Powered",
-price:105100
+price:105100,
+rent:0
 },
 
 
@@ -246,7 +275,8 @@ price:105100
 name:"Cadilac2",
 id:"31",
 details:"Speed:600km/h, Electric Powered",
-price:65400
+price:65400,
+rent:0
 },
 
 
@@ -254,7 +284,8 @@ price:65400
 name:"Cadilac3",
 id:"32",
 details:"Speed:600km/h, Electric Powered",
-price:51000
+price:51000,
+rent:19
 },
 
 
@@ -262,7 +293,8 @@ price:51000
 name:"Cadilac4",
 id:"33",
 details:"Speed:600km/h, Electric Powered",
-price:54100
+price:54100,
+rent:15
 },
 
 
@@ -270,7 +302,8 @@ price:54100
 name:"Ferrari1",
 id:"34",
 details:"Speed:600km/h, Electric Powered",
-price:562100
+price:562100,
+rent:70
 },
 
 
@@ -278,14 +311,16 @@ price:562100
 name:"Ferrari2",
 id:"35",
 details:"Speed:600km/h, Electric Powered",
-price:554100
+price:554100,
+rent:0
 },
 
 {image:Ferrari3,
 name:"Ferrari3",
 id:"36",
 details:"Speed:600km/h, Electric Powered",
-price:104100
+price:104100,
+rent:100
 },
 
 
@@ -293,7 +328,8 @@ price:104100
 name:"Jeep1",
 id:"37",
 details:"Speed:600km/h, Electric Powered",
-price:200100
+price:200100,
+rent:45
 },
 
 
@@ -301,7 +337,8 @@ price:200100
 name:"Jeep2",
 id:"38",
 details:"Speed:600km/h, Electric Powered",
-price:104100
+price:104100,
+rent:40
 },
 
 
@@ -309,7 +346,8 @@ price:104100
 name:"Jeep3",
 id:"39",
 details:"Speed:600km/h, Electric Powered",
-price:41500
+price:41500,
+rent:40
 },
 
 
@@ -317,7 +355,8 @@ price:41500
 name:"Jeep4",
 id:"40",
 details:"Speed:600km/h, Electric Powered",
-price:10100
+price:10100,
+rent:36
 },
 
 
@@ -325,7 +364,8 @@ price:10100
 name:"Jeep5",
 id:"41",
 details:"Speed:600km/h, Electric Powered",
-price:94100
+price:94100,
+rent:50
 },
 
 

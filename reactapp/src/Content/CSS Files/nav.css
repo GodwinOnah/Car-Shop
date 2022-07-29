@@ -6,7 +6,45 @@
 	color: yellowgreen;
 	font-weight: bold;
 	margin-right: 10px;
+	font-size: 12px;
 
+}
+
+#carnaming{
+	color: blue;
+	padding-left: 40%;
+	font-weight: bold;
+	font-family: fantasy;
+
+}
+
+.buy{
+
+	padding-right: 15px;
+	margin-bottom: 5px;
+}
+
+.rent{
+
+	padding-right: 30px;
+	margin-bottom: 5px;
+}
+
+.ViewingCard{
+
+	margin: 20px;
+}
+
+.viewImage{
+	max-height: 10px;
+	width: 100px;
+}
+
+#maintenance {
+
+	padding: 50px;
+	padding-top: 100px;
+	background-color: mintcream;
 }
 
 #cartLabel{
@@ -23,9 +61,13 @@ margin-left: 70px;
 
 .add{
 
-	background-color: red;
+	background-color: palevioletred;
 	margin-left: 50px;
 	margin-bottom: 5px;
+	height: 21px;
+	font-size: 12px;
+	text-align: center;
+	padding-bottom:8px ;
 }
 
 
@@ -53,6 +95,13 @@ margin-left: 70px;
 
 	
 	
+}
+
+
+.card{height: 500px;
+border: 2px solid lightskyblue;
+border-radius: 30px;
+background-color: lightgray;
 }
 
 #catNumber{
@@ -90,7 +139,12 @@ margin-bottom: 5px;
 
 
 
+Link.log{
 
+color: white;
+}
+
+ul.ulNavItems{text-decoration: none;}
 
 
  .navItems{
@@ -98,10 +152,7 @@ margin-bottom: 5px;
 	font-size: 120%;
 	color: white;
 	padding-right: 8%;
-	padding-left: 5%;
-
-
-			
+	padding-left: 5%;			
 }
 
 .dropdown-item{
@@ -124,7 +175,8 @@ margin: 0;
 .log{
 
 	font-size: 14px;
-	color: purple;
+	color: white;
+	text-decoration: none;
 }
 
 
