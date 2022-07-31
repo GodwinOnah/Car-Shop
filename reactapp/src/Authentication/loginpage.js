@@ -88,13 +88,13 @@ fetch('http://localhost:3001/login',{
                
 
                          	return(
-
+                                      <>
                                    		<div class="loginpage">
 
                                   	
 
                                   <main class="pa4 black-80  ">
-                                        <form class="measure center loginBackground" method="post" class="loginContainer">
+                                        <form class="measure center loginBackground" method="post" >
 
                                               <fieldset id="sign_up" class="ba b--transparent ph0 mh0">
 
@@ -126,11 +126,13 @@ fetch('http://localhost:3001/login',{
                                         </form>
                                 </main>
 
-                                 <MyFooter/>
+                                
 
                                 </div>
 
+                                 <MyFooter/>
 
+                                  </>
 
                         			
 

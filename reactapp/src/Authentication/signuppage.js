@@ -2,6 +2,7 @@ import React,{Component} from 'react';
 import {Link } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "bootstrap/dist/js/bootstrap.js";
+import MyFooter from '../Content/Js Files/Footer/footer.js';
 
 import './loginpage.css'
 
@@ -117,6 +118,9 @@ fetch('http://localhost:3001/signup',{
 
    	return(
 
+
+      <>
+
    		<div class="signuppage">
 
   	
@@ -160,6 +164,10 @@ fetch('http://localhost:3001/signup',{
 </main>
 
 				</div>
+
+         <MyFooter/>
+
+         </>
 
 
 
