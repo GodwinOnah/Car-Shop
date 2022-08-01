@@ -69,7 +69,7 @@ fetch('http://localhost:3001/login',{
 
 
                   if(data==="success"){
-                      navigate('/obande_luxury_cars')
+                      navigate('/signup')
 
                   }
 
@@ -84,6 +84,8 @@ fetch('http://localhost:3001/login',{
       
 
               render(){
+
+                console.log(this.state.signInEmail)
 
                
 

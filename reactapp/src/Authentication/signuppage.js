@@ -25,8 +25,8 @@ import './loginpage.css'
 
                   signUpUserName:'',
                   signUpEmail:'',
-                   signUpAddress:'',
-                    signUpPhone:'',
+                  signUpAddress:'',
+                  signUpPhone:'',
                   signUpPassword:'',
                   signUpConfirmPassword:''
                  

@@ -43,7 +43,7 @@ const carName=({carname})=>{
         if(prompter<1) return;
       
 
-        // document.getElementById('cartQuantity').innerHTML=Number(prompter);
+         document.getElementById('cartQuantity').innerHTML=Number(prompter);
 
 
         carIn.push(new Car(carname,prompter,price));

@@ -8,6 +8,7 @@ import {carProperties} from './carProperties';
 import Searcher from './searcher';
 import promptQuantity from './quantity';
 import CarCards from './Carcards';
+import {Link } from "react-router-dom";
 import Error from '../../../../ErrorBoundary';
 import {AdvertCars} from './Adverts';
 import {CarModels,CarPrice} from './CarModels';
